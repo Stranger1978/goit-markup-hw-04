@@ -120,12 +120,16 @@ img {
 
 }
 
-.contact-nav>.icon:hover {
-    fill: var(--accent-color);
+.contact-nav .icon {
+    margin-right: 10px;
 }
 
 .list .item + .item {
-margin-left: 30px;
+margin-left: 50px;
+}
+
+.contact-nav .item +.item {
+    margin-left: 30px;
 }
 
 .header-contact {
